@@ -1,6 +1,8 @@
 # Micorpython DS1302 RTC Clock driver
 This is a pure Micropython DS1302 RTC Clock driver. This is based on microbit code of microbit-lib https://github.com/shaoziyang/microbit-lib
 
+This has been tested and working on ESP32 but should work with any micropython supported device.
+
 # Dirver documentation
 (Adapted from https://github.com/shaoziyang/microbit-lib/blob/master/misc/DS1302/README.md)
 
