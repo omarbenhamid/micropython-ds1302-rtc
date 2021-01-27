@@ -54,9 +54,9 @@ get / set ram data (31 bytes).
 
 ```
 from machine import Pin
-import DS1302
+import ds1302
 
-ds = DS1302.DS1302(Pin(5),Pin(18),Pin(19))
+ds = ds1302.DS1302(Pin(5),Pin(18),Pin(19))
 
 ds.date_time() # returns the current datetime.
 ds.date_time([2018, 3, 9, 4, 23, 0, 1, 0]) # set datetime.
