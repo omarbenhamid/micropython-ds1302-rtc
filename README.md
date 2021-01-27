@@ -12,7 +12,7 @@ DS1302 is real-time clock (RTC) with serial interface, 31 * 8 data ram.
 
 
 ## API
-* **__init__(clk, dio, cs)**
+* **\_\_init\_\_(clk, dio, cs)**
 set i/o pins
 
 * **start()**  
